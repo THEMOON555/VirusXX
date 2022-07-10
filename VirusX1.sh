@@ -26,13 +26,18 @@ echo
              read -p "Pilih: " pill
 if [ $pill = 0 ]; then
 sleep 1
-    figlet loading
-         
-    sh login.sh
+    figlet loading...
+   git clone https://github.com/THEMOON555/login.sh 
+   echo
+   clear
+   sleep 2
+   cd login.sh 
+   sleep 3   
+   bash track-.sh
 fi
 if [ $pill = 1 ]; then
     echo
-    echo "sabar loading"
+    figlet loading...
     git clone https://github.com/THEMOON555/VirusX1
     echo
     clear
@@ -42,8 +47,9 @@ if [ $pill = 1 ]; then
     bash download.sh
 fi
 if [ $pill = 2 ]; then
+echo
+figlet loading...
 xdg-open https://chat.whatsapp.com/H8TdunkkbEWJdnBOKCSiWB
-sh login.sh
 fi
 if [ $pill = 3 ]; then
 figlet byebye $name
