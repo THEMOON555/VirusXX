@@ -6,8 +6,8 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 clear
+figlet LOADING.....
 read -p "Siapa Nama Kaka: " name;
-figlet LOADING.......
 clear
 sleep 1
 figlet HELLO $name
@@ -18,7 +18,7 @@ echo        "Team   : Cyber Hunter Indonesia"
 echo "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
-          echo                    "[00] Track
+          echo                    "[00] Track"
           echo                    "[01] Script"
           echo                    "[02] Join Grup"
           echo                    "[03]  Keluar"
