@@ -42,7 +42,7 @@ if [ $pill = 1 ]; then
     echo
     clear
     sleep 2
-    cd VirusX1
+    cd VirusX11
     sleep 3
     bash download.sh
 fi
