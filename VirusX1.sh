@@ -11,17 +11,17 @@ clear
 sleep 1
 figlet Hay $name
 sleep 1
-          "×××××××××××××××××××××××××××××××××××××××××××××××××"
-        "Author : DemonXProt"
-        "Team   : Cyber Hunter Indonesia"
-          "×××××××××××××××××××××××××××××××××××××××××××××××××"
+echo "×××××××××××××××××××××××××××××××××××××××××××××××××"
+echo        "Author : DemonXProt"
+echo        "Team   : Cyber Hunter Indonesia"
+echo "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
           echo                    "[01] Script"
           echo                    "[02] Join Grup"
           echo                    "[03]  Keluar"
                                  
-                "×××××××××××××××××××××××××××××××××××××××××××××××××"
+        echo      "×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
              read -p "Pilih: " pill
 if [ $pill = 0 ]; then
