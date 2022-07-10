@@ -1,6 +1,4 @@
-#!/bin/sh
-# by DEMONX
-# code warna
+
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -9,11 +7,14 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 
+
 echo $cyan"
-read -p "Siapa Nama Kaka: "name;
-clear
+    read -p "Siapa Nama Kaka: "name;
+
+
+  clear
 sleep 1
-figlet Hay $name
+     figlet Hay $name
 sleep 1
           echo $cyan":::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
     echo $cyan"::"$yellow"          AUTHOR"$cyan" :"$yellow" DEMONXXX.                         "$cyan"::"
