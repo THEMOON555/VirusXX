@@ -12,14 +12,14 @@ sleep 1
 figlet Hay $name
 sleep 1
           "×××××××××××××××××××××××××××××××××××××××××××××××××"
-        Author : DemonXProt
-        Team   : Cyber Hunter Indonesia
+        "Author : DemonXProt"
+        "Team   : Cyber Hunter Indonesia"
           "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
-                                   [01] Script"
-                                   [02] Join Grup"
-                                   [03]  Keluar"
+          echo                    "[01] Script"
+          echo                    "[02] Join Grup"
+          echo                    "[03]  Keluar"
                                  
                 "×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
