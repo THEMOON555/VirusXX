@@ -15,8 +15,8 @@ sleep 1
 figlet Hay $name
 sleep 1
           "×××××××××××××××××××××××××××××××××××××××××××××××××"
-           " Author " : DEMONXX"
-           " Team "   : Cyber Hunter Indonesia"
+           " Author " : "DEMONXX"
+           " Team "   : "Cyber Hunter Indonesia"
           "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
