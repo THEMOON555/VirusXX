@@ -38,7 +38,7 @@ fi
 if [ $pill = 1 ]; then
     echo
     figlet loading...
-    git clone https://github.com/THEMOON555/VirusX1
+    git clone https://github.com/THEMOON555/VirusX11
     echo
     clear
     sleep 2
