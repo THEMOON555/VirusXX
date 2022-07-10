@@ -12,19 +12,18 @@ yellow='\033[33;1m'
 read -p "Siapa Nama Kaka: " name;
 clear
 sleep 1
-echo $red
 figlet Hay $name
 sleep 1
-echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
-echo $white" Author " : DEMONXX"
-echo $white" Team "   : Cyber Hunter Indonesia"
-echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
+          "×××××××××××××××××××××××××××××××××××××××××××××××××"
+           " Author " : DEMONXX"
+           " Team "   : Cyber Hunter Indonesia"
+          "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
-         echo $green"2"$cyan")"$green" Masuk Ke Script"
-         echo $green"3"$cyan")"$green" Join Grup"
-         echo $green"4"$cyan")"$red" Keluar"
-         echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
+                                ("2")" Masuk Ke Script"
+                                ("3")" Join Grup"
+                                ("4")" Keluar"
+                   "×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
              read -p "Pilih: " pill
 if [ $pill = 1 ]; then
@@ -36,11 +35,11 @@ fi
 if [ $pill = 2 ]; then
     echo
     echo "sabar loading"
-    git clone https://github.com/THEMOON555/VirusZ2
+    git clone https://github.com/THEMOON555/VirusX1
     echo
     clear
     sleep 2
-    cd VirusZ2
+    cd VirusX1
     sleep 3
     sh download.sh
 fi
