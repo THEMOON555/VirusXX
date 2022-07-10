@@ -1,4 +1,3 @@
-
 blue='\033[34;1m'
 green='\033[32;1m'
 purple='\033[35;1m'
@@ -6,35 +5,26 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
-
-
-echo $cyan"
-    read -p "Siapa Nama Kaka: "name;
-
-
-  clear
+read -p "Siapa Nama Kaka: " name;
+clear
 sleep 1
-     figlet Hay $name
+echo $red
+figlet Hay $name
 sleep 1
-          echo $cyan":::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-    echo $cyan"::"$yellow"          AUTHOR"$cyan" :"$yellow" DEMONXXX.                         "$cyan"::"
-    echo $cyan"::"$yellow"          TEAM  "$cyan" :"$yellow" Cyber Hunter Indonesia.           "$cyan"::"
-    echo $cyan"::"$yellow"          
-    echo $cyan":::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+          "×××××××××××××××××××××××××××××××××××××××××××××××××"
+echo " Author : DemonXProt"
+echo " Team   : Cyber Hunter Indonesia"
+          "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
-          sleep 1
-               echo $purple" GUNAKAN TOOLS INI DENGAN BIJAK"
-                 echo $cyan"°==============================°"
-                   echo
     sleep 1
-         echo $cyan"["$white"01"$cyan"]"$green" Script"
-         echo $cyan"["$white"02"$cyan"]"$green" Grup Wa"
-         echo $cyan"["$white"03"$cyan"]"$red" Exit"
-         echo
-                   "×××××××××××××××××××××××××××××××××××××××××××××××××"
+                             echo" [01] Script"
+                             echo" [02] Join Grup"
+                             echo" [03]  Keluar"
+                                 
+                "×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
              read -p "Pilih: " pill
-if [ $pill = 1 ]; then
+if [ $pill = 0 ]; then
 sleep 1
     figlet loading
          
