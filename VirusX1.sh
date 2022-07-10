@@ -5,21 +5,21 @@ cyan='\033[36;1m'
 red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
+clear
 read -p "Siapa Nama Kaka: " name;
 clear
 sleep 1
-echo $red
 figlet Hay $name
 sleep 1
           "×××××××××××××××××××××××××××××××××××××××××××××××××"
-echo " Author : DemonXProt"
-echo " Team   : Cyber Hunter Indonesia"
+        Author : DemonXProt
+        Team   : Cyber Hunter Indonesia
           "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
-                             echo" [01] Script"
-                             echo" [02] Join Grup"
-                             echo" [03]  Keluar"
+                                   [01] Script"
+                                   [02] Join Grup"
+                                   [03]  Keluar"
                                  
                 "×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
@@ -39,7 +39,7 @@ if [ $pill = 1 ]; then
     sleep 2
     cd VirusX1
     sleep 3
-    sh download.sh
+    bash download.sh
 fi
 if [ $pill = 2 ]; then
 xdg-open https://chat.whatsapp.com/H8TdunkkbEWJdnBOKCSiWB
