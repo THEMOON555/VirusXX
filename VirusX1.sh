@@ -1,4 +1,3 @@
-
 #!/bin/sh
 # by DEMONX
 # code warna
@@ -10,22 +9,22 @@ red='\033[31;1m'
 white='\033[37;1m'
 yellow='\033[33;1m'
 
-read -p " Siapa Nama Kaka?: " name;
+read -p "Siapa Nama Kaka: " name;
 clear
 sleep 1
-echo $red"
-figlet HY $name
+echo $red
+figlet Hay $name
 sleep 1
-echo $purple" ×××××××××××××××××××××××××××××××××××××××××××××××××"
-echo   $red"Author" : DEMONXX"
-echo   $red"Team"   : Cyber Hunter Indonesia"
-echo $purple" ×××××××××××××××××××××××××××××××××××××××××××××××××"
+echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
+echo $white" Author " : DEMONXX"
+echo $white" Team "   : Cyber Hunter Indonesia"
+echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
-         echo $cyan"[2]"$white")$green" Masuk Ke Script"
-         echo $cyan"[3]"$white")"$green" Join Grup"
-         echo $cyan"[4]"$white")"$red" Keluar"
-          echo $purple" ×××××××××××××××××××××××××××××××××××××××××××××××××"
+         echo $green"2"$cyan")"$green" Masuk Ke Script"
+         echo $green"3"$cyan")"$green" Join Grup"
+         echo $green"4"$cyan")"$red" Keluar"
+         echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
              read -p "Pilih: " pill
 if [ $pill = 1 ]; then
