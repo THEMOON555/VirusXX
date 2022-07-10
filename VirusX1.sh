@@ -7,16 +7,18 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 clear
 read -p "Siapa Nama Kaka: " name;
+figlet LOADING.......
 clear
 sleep 1
-figlet Hay $name
+figlet HELLO $name
 sleep 1
 echo "×××××××××××××××××××××××××××××××××××××××××××××××××"
-echo        "Author : DemonXProt"
+echo        "Author : DemonXV"
 echo        "Team   : Cyber Hunter Indonesia"
 echo "×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
+          echo                    "[00] Track
           echo                    "[01] Script"
           echo                    "[02] Join Grup"
           echo                    "[03]  Keluar"
@@ -44,7 +46,7 @@ if [ $pill = 1 ]; then
     sleep 2
     cd VirusX11
     sleep 3
-    bash download.sh
+    bash Download.sh
 fi
 if [ $pill = 2 ]; then
 echo
