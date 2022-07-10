@@ -12,19 +12,19 @@ yellow='\033[33;1m'
 read -p " Siapa Nama Kaka?: " name;
 clear
 sleep 1
-echo $red
-figlet Hay $name
+echo $red"
+figlet HY $name
 sleep 1
-echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
-echo $white" Author : Panglima Jateng"
-echo " Team   : Mafia Teknologi Indonesia"
-echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
+\033[35;1m ×××××××××××××××××××××××××××××××××××××××××××××××××"
+  \033[31;1m Author : DEMONXX"
+  \033[31;1m Team   : Cyber Hunter Indonesia"
+\033[35;1m ×××××××××××××××××××××××××××××××××××××××××××××××××"
 echo
     sleep 1
-         echo $green"2"$cyan")"$green" Masuk Ke Script"
-         echo $green"3"$cyan")"$green" Join Grup"
-         echo $green"4"$cyan")"$green" Keluar"
-         echo $cyan"×××××××××××××××××××××××××××××××××××××××××××××××××"
+         echo \033[37;1m[2]\033[32;1m")"\033[32;1m" Masuk Ke Script"
+         echo \033[37;1m[3]\033[32;1m")"\033[32;1m" Join Grup"
+         echo \033[37;1m[4]\033[32;1m")"\033[31;1m" Keluar"
+         echo \033[35;1m ×××××××××××××××××××××××××××××××××××××××××××××××××"
              sleep 1
              read -p "Pilih: " pill
 if [ $pill = 1 ]; then
